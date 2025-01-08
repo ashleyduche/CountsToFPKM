@@ -2,7 +2,7 @@
 
 This repository provides two R scripts for converting raw gene expression counts to FPKM values using gene lengths retrieved from Ensembl. A straightforward script for quick processing or a modular script for more complex workflows can be choosen.
 
-## Why Use These Scripts?
+## Background
 
 FPKM (Fragments Per Kilobase of transcript per Million mapped reads) is a common method used to normalize RNA-seq count data, accounting for both sequencing depth and gene length. These scripts automate the conversion of raw counts into FPKM values by retrieving gene lengths from Ensembl.
 
